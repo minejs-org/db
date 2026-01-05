@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// test/main.test.ts
+// test/index.test.ts
 //
 // Developed with ❤️ by Maysara.
 
@@ -24,7 +24,7 @@
 		references,
 		index,
 		type TableSchema
-    } from '../src/main';
+    } from '../src';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 

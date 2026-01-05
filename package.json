@@ -1,45 +1,45 @@
 {
 	"name"                             : "@minejs/db",
-	"version"                          : "0.0.2",
+	"version"                          : "0.0.3",
 	"description"                      : "Lightweight SQLite database wrapper with fluent query builder and schema management.",
 	"keywords"                         : ["minejs", "database"],
 	"license"                          : "MIT",
 	"homepage"                         : "https://github.com/minejs-org/db#readme",
-	"bugs"                             : {
+	"bugs": {
 		"url"                          : "https://github.com/minejs-org/db/issues"
 	},
-	"author"                           : {
+	"author": {
 		"name"                         : "Maysara",
 		"email"                        : "maysara.elshewehy@gmail.com",
 		"url"                          : "https://github.com/maysara-elshewehy"
 	},
-	"repository"                       : {
+	"repository": {
 		"type"                         : "git",
 		"url"                          : "git+https://github.com/minejs-org/db.git"
 	},
 	"type"                             : "module",
-	"main"                             : "./dist/main.js",
-	"types"                            : "./dist/main.d.ts",
+	"main"                             : "./dist/index.js",
+	"types"                            : "./dist/index.d.ts",
 	"files"                            : ["dist"],
-	"exports"                          : {
-		"."                            : {
-			"types"                    : "./dist/main.d.ts",
-			"import"                   : "./dist/main.js",
-			"require"                  : "./dist/main.js"
+	"exports": {
+		".": {
+			"types"                    : "./dist/index.d.ts",
+			"import"                   : "./dist/index.js",
+			"require"                  : "./dist/index.js"
 		}
 	},
-	"scripts"                          : {
+	"scripts": {
 		"build"                        : "tsup",
 		"lint"                         : "eslint src --ext .ts",
 		"test"                         : "bun test"
 	},
-	"engines"                          : {
+	"engines": {
 		"bun"                          : ">=1.3.3"
 	},
-	"peerDependencies"                 : {
+	"peerDependencies": {
 		"bun"                          : "^1.3.3"
 	},
-	"devDependencies"                  : {
+	"devDependencies": {
 		"@eslint/js"                   : "^9.39.2",
 		"@stylistic/eslint-plugin"     : "^5.6.1",
 		"@types/bun"                   : "^1.3.5",

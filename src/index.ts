@@ -1,4 +1,4 @@
-// src/main.ts
+// src/index.ts
 //
 // Developed with ❤️ by Maysara.
 
@@ -7,8 +7,8 @@
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
     import { Database } from 'bun:sqlite';
-    import * as types from './types.d';
-    export * from './types.d';
+    import * as types from './types';
+    export * from './types';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 
