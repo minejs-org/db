@@ -5,7 +5,7 @@
 	"repo"              : {
 		"org"           : "minejs",
 		"name"          : "db",
-		"version"       : "0.0.1",
+		"version"       : "0.0.2",
 		"desc"          : "Lightweight SQLite database wrapper with fluent query builder and schema management.",
 		"kw"            : ["minejs", "database"],
 		"license"       : "MIT",
