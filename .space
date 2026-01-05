@@ -1,0 +1,23 @@
+{
+	"type"              : "lib",
+	"template"          : "clean",
+	"pm"                : "bun",
+	"repo"              : {
+		"org"           : "minejs",
+		"name"          : "db",
+		"version"       : "0.0.1",
+		"desc"          : "Lightweight SQLite database wrapper with fluent query builder and schema management.",
+		"kw"            : ["minejs", "database"],
+		"license"       : "MIT",
+		"issues"        : "https://github.com/minejs-org/db/issues",
+		"homepage"      : "https://github.com/minejs-org/db#readme",
+		"git_url"       : "git+https://github.com/minejs-org/db.git"
+	},
+	"author"            : {
+		"id"            : "maysara-elshewehy",
+		"name"          : "Maysara",
+		"email"         : "maysara.elshewehy@gmail.com",
+		"url"           : "https://github.com/maysara-elshewehy"
+	},
+	"createdAt"         : "2026-01-05T00:24:06.373Z"
+}
